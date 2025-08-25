@@ -1,5 +1,5 @@
 # BoxScorePlayerTrackV2
-##### [nba_api/stats/endpoints/boxscoreplayertrackv2.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/boxscoreplayertrackv2.py)
+##### [nba_api/stats/endpoints/boxscoreplayertrackv2.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/boxscoreplayertrackv2.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/boxscoreplayertrackv2](https://stats.nba.com/stats/boxscoreplayertrackv2)
@@ -10,7 +10,7 @@
 ## Parameters
 | API Parameter Name                                                                                          | Python Parameter Variable |  Pattern   | Required | Nullable |
 |-------------------------------------------------------------------------------------------------------------|---------------------------|:----------:|:--------:|:--------:|
-| [_**GameID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID) | game_id                   | `^\d{10}$` |   `Y`    |          | 
+| [_**GameID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID) | game_id                   | `^\d{10}$` |   `Y`    |          | 
 
 ## Data Sets
 #### PlayerStats `player_stats`

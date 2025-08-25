@@ -1,5 +1,5 @@
 # ScheduleLeagueV2Int
-##### [nba_api/stats/endpoints/scheduleleaguev2int.py](https://github.com/swar/nba_api/blob/master/nba_api/stats/endpoints/scheduleleaguev2int.py)
+##### [nba_api/stats/endpoints/scheduleleaguev2int.py](https://github.com/rigidextoll/nba_api/blob/master/nba_api/stats/endpoints/scheduleleaguev2int.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/scheduleleaguev2int](https://stats.nba.com/stats/scheduleleaguev2int)
@@ -10,8 +10,8 @@
 ## Parameters
 API Parameter Name | Python Parameter Variable | Pattern | Required | Nullable
 ------------ | ------------ | :-----------: | :---: | :---:
-[_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id |  |  |  | 
-[_**Season**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season) | season |  |  |  | 
+[_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id |  |  |  | 
+[_**Season**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season) | season |  |  |  | 
 
 ## Data Sets
 #### SeasonGames `season_games`

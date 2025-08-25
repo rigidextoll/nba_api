@@ -1,5 +1,5 @@
 # BoxScore
-##### [nba_api/live/nba/endpoints/boxscore.py](https://github.com/swar/nba_api/blob/master/nba_api/live/nba/endpoints/boxscore.py)
+##### [nba_api/live/nba/endpoints/boxscore.py](https://github.com/rigidextoll/nba_api/blob/master/nba_api/live/nba/endpoints/boxscore.py)
 
 ##### Endpoint URL
 >[https://cdn.nba.com/static/json/liveData/boxscore/boxscore_{game_id}.json](https://cdn.nba.com/static/json/liveData/boxscore/boxscore_{game_id}.json)
@@ -10,7 +10,7 @@
 ## Parameters
 API Parameter Name | Python Parameter Variable | Pattern | Required | Nullable
 ------------ | ------------ | :-----------: | :---: | :---:
-[_**GameID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID) | game_id | `^\d{10}$` | `Y` |  |
+[_**GameID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID) | game_id | `^\d{10}$` | `Y` |  |
 
 ## DataSets
 #### Arena `Arena`

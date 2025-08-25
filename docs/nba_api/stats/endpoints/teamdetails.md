@@ -1,5 +1,5 @@
 # TeamDetails
-##### [nba_api/stats/endpoints/teamdetails.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/teamdetails.py)
+##### [nba_api/stats/endpoints/teamdetails.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/teamdetails.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/teamdetails](https://stats.nba.com/stats/teamdetails)
@@ -10,7 +10,7 @@
 ## Parameters
 | API Parameter Name                                                                                          | Python Parameter Variable | Pattern | Required | Nullable |
 |-------------------------------------------------------------------------------------------------------------|---------------------------|:-------:|:--------:|:--------:|
-| [_**TeamID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID) | team_id                   |         |   `Y`    |          | 
+| [_**TeamID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID) | team_id                   |         |   `Y`    |          | 
 
 ## Data Sets
 #### TeamAwardsChampionships `team_awards_championships`

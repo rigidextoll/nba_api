@@ -1,5 +1,5 @@
 # GLAlumBoxScoreSimilarityScore
-##### [nba_api/stats/endpoints/glalumboxscoresimilarityscore.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/glalumboxscoresimilarityscore.py)
+##### [nba_api/stats/endpoints/glalumboxscoresimilarityscore.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/glalumboxscoresimilarityscore.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/glalumboxscoresimilarityscore](https://stats.nba.com/stats/glalumboxscoresimilarityscore)
@@ -10,14 +10,14 @@
 ## Parameters
 | API Parameter Name                                                                                                                | Python Parameter Variable | Pattern | Required | Nullable |
 |-----------------------------------------------------------------------------------------------------------------------------------|---------------------------|:-------:|:--------:|:--------:|
-| [_**Person1Id**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1Id)                 | person1_id                |         |   `Y`    |          | 
-| [_**Person1LeagueId**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1LeagueId)     | person1_league_id         |         |   `Y`    |          | 
-| [_**Person1Season**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1Season)         | person1_season_year       |         |   `Y`    |          | 
-| [_**Person1SeasonType**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1SeasonType) | person1_season_type       |         |   `Y`    |          | 
-| [_**Person2Id**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2Id)                 | person2_id                |         |   `Y`    |          | 
-| [_**Person2LeagueId**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2LeagueId)     | person2_league_id         |         |   `Y`    |          | 
-| [_**Person2Season**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2Season)         | person2_season_year       |         |   `Y`    |          | 
-| [_**Person2SeasonType**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2SeasonType) | person2_season_type       |         |   `Y`    |          | 
+| [_**Person1Id**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1Id)                 | person1_id                |         |   `Y`    |          | 
+| [_**Person1LeagueId**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1LeagueId)     | person1_league_id         |         |   `Y`    |          | 
+| [_**Person1Season**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1Season)         | person1_season_year       |         |   `Y`    |          | 
+| [_**Person1SeasonType**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person1SeasonType) | person1_season_type       |         |   `Y`    |          | 
+| [_**Person2Id**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2Id)                 | person2_id                |         |   `Y`    |          | 
+| [_**Person2LeagueId**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2LeagueId)     | person2_league_id         |         |   `Y`    |          | 
+| [_**Person2Season**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2Season)         | person2_season_year       |         |   `Y`    |          | 
+| [_**Person2SeasonType**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Person2SeasonType) | person2_season_type       |         |   `Y`    |          | 
 
 ## Data Sets
 #### GLeagueAlumBoxScoreSimilarityScores `g_league_alum_box_score_similarity_scores`

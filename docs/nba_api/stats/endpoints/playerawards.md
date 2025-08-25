@@ -1,5 +1,5 @@
 # PlayerAwards
-##### [nba_api/stats/endpoints/playerawards.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/playerawards.py)
+##### [nba_api/stats/endpoints/playerawards.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/playerawards.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/playerawards](https://stats.nba.com/stats/playerawards)
@@ -10,7 +10,7 @@
 ## Parameters
 | API Parameter Name                                                                                              | Python Parameter Variable | Pattern | Required | Nullable |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------|:-------:|:--------:|:--------:|
-| [_**PlayerID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerID) | player_id                 |         |   `Y`    |          | 
+| [_**PlayerID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerID) | player_id                 |         |   `Y`    |          | 
 
 ## Data Sets
 #### PlayerAwards `player_awards`

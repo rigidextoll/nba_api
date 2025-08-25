@@ -1,5 +1,5 @@
 # CumeStatsTeam
-##### [nba_api/stats/endpoints/cumestatsteam.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/cumestatsteam.py)
+##### [nba_api/stats/endpoints/cumestatsteam.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/cumestatsteam.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/cumestatsteam](https://stats.nba.com/stats/cumestatsteam)
@@ -10,11 +10,11 @@
 ## Parameters
 | API Parameter Name                                                                                                  | Python Parameter Variable |                          Pattern                           | Required | Nullable |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------|:----------------------------------------------------------:|:--------:|:--------:|
-| [_**GameIDs**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameIDs)       | game_ids                  |                                                            |   `Y`    |          | 
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)     | league_id                 |                                                            |   `Y`    |          | 
-| [_**Season**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)         | season                    |                                                            |   `Y`    |          | 
-| [_**SeasonType**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType) | season_type_all_star      | `^(Regular Season)\|(Pre Season)\|(Playoffs)\|(All Star)$` |   `Y`    |          | 
-| [_**TeamID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID)         | team_id                   |                                                            |   `Y`    |          | 
+| [_**GameIDs**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameIDs)       | game_ids                  |                                                            |   `Y`    |          | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)     | league_id                 |                                                            |   `Y`    |          | 
+| [_**Season**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)         | season                    |                                                            |   `Y`    |          | 
+| [_**SeasonType**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType) | season_type_all_star      | `^(Regular Season)\|(Pre Season)\|(Playoffs)\|(All Star)$` |   `Y`    |          | 
+| [_**TeamID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID)         | team_id                   |                                                            |   `Y`    |          | 
 
 ## Data Sets
 #### GameByGameStats `game_by_game_stats`

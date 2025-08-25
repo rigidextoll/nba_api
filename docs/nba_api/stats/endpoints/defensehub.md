@@ -1,5 +1,5 @@
 # DefenseHub
-##### [nba_api/stats/endpoints/defensehub.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/defensehub.py)
+##### [nba_api/stats/endpoints/defensehub.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/defensehub.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/defensehub](https://stats.nba.com/stats/defensehub)
@@ -10,12 +10,12 @@
 ## Parameters
 | API Parameter Name                                                                                                      | Python Parameter Variable |                    Pattern                     | Required | Nullable |
 |-------------------------------------------------------------------------------------------------------------------------|---------------------------|:----------------------------------------------:|:--------:|:--------:|
-| [_**GameScope**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameScope)       | game_scope_detailed       | `^(Season)\|(Last 10)\|(Yesterday)\|(Finals)$` |   `Y`    |          | 
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)         | league_id                 |                   `^\d{2}$`                    |   `Y`    |          | 
-| [_**PlayerOrTeam**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerOrTeam) | player_or_team            |              `^(Player)\|(Team)$`              |   `Y`    |          | 
-| [_**PlayerScope**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerScope)   | player_scope              |          `^(All Players)\|(Rookies)$`          |   `Y`    |          | 
-| [_**Season**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)             | season                    |                                                |   `Y`    |          | 
-| [_**SeasonType**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType)     | season_type_playoffs      | `^(Regular Season)\|(Pre Season)\|(Playoffs)$` |   `Y`    |          | 
+| [_**GameScope**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameScope)       | game_scope_detailed       | `^(Season)\|(Last 10)\|(Yesterday)\|(Finals)$` |   `Y`    |          | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)         | league_id                 |                   `^\d{2}$`                    |   `Y`    |          | 
+| [_**PlayerOrTeam**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerOrTeam) | player_or_team            |              `^(Player)\|(Team)$`              |   `Y`    |          | 
+| [_**PlayerScope**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerScope)   | player_scope              |          `^(All Players)\|(Rookies)$`          |   `Y`    |          | 
+| [_**Season**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)             | season                    |                                                |   `Y`    |          | 
+| [_**SeasonType**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType)     | season_type_playoffs      | `^(Regular Season)\|(Pre Season)\|(Playoffs)$` |   `Y`    |          | 
 
 ## Data Sets
 #### DefenseHubStat1 `defense_hub_stat1`

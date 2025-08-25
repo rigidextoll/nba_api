@@ -1,5 +1,5 @@
 # InfographicFanDuelPlayer
-##### [nba_api/stats/endpoints/infographicfanduelplayer.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/infographicfanduelplayer.py)
+##### [nba_api/stats/endpoints/infographicfanduelplayer.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/infographicfanduelplayer.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/infographicfanduelplayer](https://stats.nba.com/stats/infographicfanduelplayer)
@@ -10,7 +10,7 @@
 ## Parameters
 | API Parameter Name                                                                                          | Python Parameter Variable |  Pattern   | Required | Nullable |
 |-------------------------------------------------------------------------------------------------------------|---------------------------|:----------:|:--------:|:--------:|
-| [_**GameID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID) | game_id                   | `^\d{10}$` |   `Y`    |          | 
+| [_**GameID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID) | game_id                   | `^\d{10}$` |   `Y`    |          | 
 
 ## Data Sets
 #### FanDuelPlayer `fan_duel_player`

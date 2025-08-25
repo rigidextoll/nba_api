@@ -14,7 +14,7 @@ Have you identified a reproducible problem? Have a feature request? Identified a
 
 ## Look For an Existing Issue
 
-Before you create a new issue, please do a search in [open issues](https://github.com/swar/nba_api/issues) to see if the issue or feature request has already been filed.
+Before you create a new issue, please do a search in [open issues](https://github.com/rigidextoll/nba_api/issues) to see if the issue or feature request has already been filed.
 
 If you find your issue already exists, make relevant comments and add your [reaction](https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments). Use a reaction in place of a "+1" comment:
 
@@ -105,7 +105,7 @@ feat!: remove deprecated endpoint support
 
 #### Proposals
 
-Should you wish to make a significant change within the project, please open a [GitHub Issue](https://github.com/swar/nba_api/issues) using the prefix `PROPOSAL:` within the subject.
+Should you wish to make a significant change within the project, please open a [GitHub Issue](https://github.com/rigidextoll/nba_api/issues) using the prefix `PROPOSAL:` within the subject.
 
 #### Code Reviews
 
@@ -115,7 +115,7 @@ GitHub allows developers the ability to draft pull requestes. This is incredibly
 
 ### Python Supported Versions
 
-Supported versions can be found within the [build script](https://github.com/swar/nba_api/blob/master/.circleci/config.yml).
+Supported versions can be found within the [build script](https://github.com/rigidextoll/nba_api/blob/master/.circleci/config.yml).
 
 While `nba_api` makes every attempt to provide compatibility with [Supported Versions of Python](https://devguide.python.org/versions/), libraries that the `nba_api` depends on may not offer that same compatibility. Should this occur, the `nba_api` will support the next Supported Version of Python in which all libraries share mutual compatibility.
 

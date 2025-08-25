@@ -1,5 +1,5 @@
 # VideoStatus
-##### [nba_api/stats/endpoints/videostatus.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/videostatus.py)
+##### [nba_api/stats/endpoints/videostatus.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/videostatus.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/videostatus](https://stats.nba.com/stats/videostatus)
@@ -10,8 +10,8 @@
 ## Parameters
 | API Parameter Name                                                                                              | Python Parameter Variable |  Pattern  | Required | Nullable |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------|:---------:|:--------:|:--------:|
-| [_**GameDate**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameDate) | game_date                 |           |   `Y`    |          | 
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id                 | `^\d{2}$` |   `Y`    |          | 
+| [_**GameDate**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameDate) | game_date                 |           |   `Y`    |          | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id                 | `^\d{2}$` |   `Y`    |          | 
 
 ## Data Sets
 #### VideoStatus `video_status`

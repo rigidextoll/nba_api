@@ -1,5 +1,5 @@
 # FranchisePlayers
-##### [nba_api/stats/endpoints/franchiseplayers.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/franchiseplayers.py)
+##### [nba_api/stats/endpoints/franchiseplayers.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/franchiseplayers.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/franchiseplayers](https://stats.nba.com/stats/franchiseplayers)
@@ -10,10 +10,10 @@
 ## Parameters
 | API Parameter Name                                                                                                  | Python Parameter Variable |                                                                    Pattern                                                                    | Required | Nullable |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------:|:--------:|:--------:|
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)     | league_id                 |                                                                                                                                               |   `Y`    |          | 
-| [_**PerMode**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PerMode)       | per_mode_detailed         | `^(Totals)\|(PerGame)\|(MinutesPer)\|(Per48)\|(Per40)\|(Per36)\|(PerMinute)\|(PerPossession)\|(PerPlay)\|(Per100Possessions)\|(Per100Plays)$` |   `Y`    |          | 
-| [_**SeasonType**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType) | season_type_all_star      |                                          `^(Regular Season)\|(Pre Season)\|(Playoffs)\|(All Star)$`                                           |   `Y`    |          | 
-| [_**TeamID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID)         | team_id                   |                                                                                                                                               |   `Y`    |          | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)     | league_id                 |                                                                                                                                               |   `Y`    |          | 
+| [_**PerMode**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PerMode)       | per_mode_detailed         | `^(Totals)\|(PerGame)\|(MinutesPer)\|(Per48)\|(Per40)\|(Per36)\|(PerMinute)\|(PerPossession)\|(PerPlay)\|(Per100Possessions)\|(Per100Plays)$` |   `Y`    |          | 
+| [_**SeasonType**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType) | season_type_all_star      |                                          `^(Regular Season)\|(Pre Season)\|(Playoffs)\|(All Star)$`                                           |   `Y`    |          | 
+| [_**TeamID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID)         | team_id                   |                                                                                                                                               |   `Y`    |          | 
 
 ## Data Sets
 #### FranchisePlayers `franchise_players`

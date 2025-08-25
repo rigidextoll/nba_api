@@ -1,5 +1,5 @@
 # CommonPlayerInfo
-##### [nba_api/stats/endpoints/commonplayerinfo.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/commonplayerinfo.py)
+##### [nba_api/stats/endpoints/commonplayerinfo.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/commonplayerinfo.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/commonplayerinfo](https://stats.nba.com/stats/commonplayerinfo)
@@ -10,8 +10,8 @@
 ## Parameters
 | API Parameter Name                                                                                              | Python Parameter Variable | Pattern | Required | Nullable |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------|:-------:|:--------:|:--------:|
-| [_**PlayerID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerID) | player_id                 |         |   `Y`    |          | 
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id_nullable        |         |          |   `Y`    | 
+| [_**PlayerID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerID) | player_id                 |         |   `Y`    |          | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id_nullable        |         |          |   `Y`    | 
 
 ## Data Sets
 #### AvailableSeasons `available_seasons`
