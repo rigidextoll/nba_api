@@ -1,5 +1,5 @@
 # PlayByPlay
-##### [nba_api/stats/endpoints/playbyplay.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/playbyplay.py)
+##### [nba_api/stats/endpoints/playbyplay.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/playbyplay.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/playbyplay](https://stats.nba.com/stats/playbyplay)
@@ -10,9 +10,9 @@
 ## Parameters
 | API Parameter Name                                                                                                    | Python Parameter Variable |  Pattern   | Required | Nullable |
 |-----------------------------------------------------------------------------------------------------------------------|---------------------------|:----------:|:--------:|:--------:|
-| [_**EndPeriod**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#EndPeriod)     | end_period                |            |   `Y`    |          | 
-| [_**GameID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID)           | game_id                   | `^\d{10}$` |   `Y`    |          | 
-| [_**StartPeriod**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#StartPeriod) | start_period              |            |   `Y`    |          | 
+| [_**EndPeriod**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#EndPeriod)     | end_period                |            |   `Y`    |          | 
+| [_**GameID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID)           | game_id                   | `^\d{10}$` |   `Y`    |          | 
+| [_**StartPeriod**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#StartPeriod) | start_period              |            |   `Y`    |          | 
 
 ## Data Sets
 #### AvailableVideo `available_video`

@@ -1,5 +1,5 @@
 # ISTStandings
-##### [nba_api/stats/endpoints/iststandings.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/idststandings.py)
+##### [nba_api/stats/endpoints/iststandings.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/idststandings.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/iststandings](https://stats.nba.com/stats/iststandings)
@@ -10,9 +10,9 @@
 ## Parameters
 | API Parameter Name                                                                                              | Python Parameter Variable |         Pattern         |  Required   | Nullable |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------|:-----------------------:|:-----------:|:--------:|
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id                 |        `^\d{2}$`        |     `Y`     |          | 
-| [_**Season**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)     | season                    |                         |     `Y`     |          |
-| [_**Section**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Section)   | section                   | `^(group)\|(wildcard)$` |     `Y`     |          |
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id                 |        `^\d{2}$`        |     `Y`     |          | 
+| [_**Season**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)     | season                    |                         |     `Y`     |          |
+| [_**Section**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Section)   | section                   | `^(group)\|(wildcard)$` |     `Y`     |          |
 
 ## Data Sets
 #### Standings `standings`

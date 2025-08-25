@@ -1,5 +1,5 @@
 # GameRotation
-##### [nba_api/stats/endpoints/gamerotation.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/gamerotation.py)
+##### [nba_api/stats/endpoints/gamerotation.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/gamerotation.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/gamerotation](https://stats.nba.com/stats/gamerotation)
@@ -10,8 +10,8 @@
 ## Parameters
 | API Parameter Name                                                                                              | Python Parameter Variable |  Pattern   | Required | Nullable |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------|:----------:|:--------:|:--------:|
-| [_**GameID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID)     | game_id                   | `^\d{10}$` |   `Y`    |          | 
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id                 |            |   `Y`    |          | 
+| [_**GameID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#GameID)     | game_id                   | `^\d{10}$` |   `Y`    |          | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id                 |            |   `Y`    |          | 
 
 ## Data Sets
 #### AwayTeam `away_team`

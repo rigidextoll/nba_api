@@ -1,5 +1,5 @@
 endpoint_documentation_template = """# {endpoint}
-##### [nba_api/stats/endpoints/{endpoint__lowercase}.py](https://github.com/swar/nba_api/blob/master/nba_api/stats/endpoints/{endpoint__lowercase}.py)
+##### [nba_api/stats/endpoints/{endpoint__lowercase}.py](https://github.com/rigidextoll/nba_api/blob/master/nba_api/stats/endpoints/{endpoint__lowercase}.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/{endpoint__lowercase}](https://stats.nba.com/stats/{endpoint__lowercase})
@@ -28,4 +28,4 @@ data_set_template = """#### {data_set_name} `{method_name}`
 ```
 """
 
-parameter_line_template = """[_**{api_parameter_name}**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#{api_parameter_name}) | {python_parameter_variable} | {pattern} | {required} | {nullable} | """
+parameter_line_template = """[_**{api_parameter_name}**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#{api_parameter_name}) | {python_parameter_variable} | {pattern} | {required} | {nullable} | """

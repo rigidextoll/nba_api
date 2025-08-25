@@ -43,9 +43,9 @@ dependencies = [
 readme = "README.md"
 
 [project.urls]
-    repository = "https://github.com/swar/nba_api"
-    "Bug Tracker" = "https://github.com/swar/nba_api/issues"
-    documentation = "https://github.com/swar/nba_api/blob/master/README.md"
+    repository = "https://github.com/rigidextoll/nba_api"
+    "Bug Tracker" = "https://github.com/rigidextoll/nba_api/issues"
+    documentation = "https://github.com/rigidextoll/nba_api/blob/master/README.md"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

@@ -105,7 +105,7 @@ feat!: remove deprecated endpoint support
 
 #### Proposals
 
-Should you wish to make a significant change within the project, please open a [GitHub Issue](https://github.com/swar/nba_api/issues) using the prefix `PROPOSAL:` within the subject.
+Should you wish to make a significant change within the project, please open a [GitHub Issue](https://github.com/rigidextoll/nba_api/issues) using the prefix `PROPOSAL:` within the subject.
 
 #### Code Reviews
 

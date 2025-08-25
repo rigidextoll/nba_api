@@ -1,5 +1,5 @@
 # PlayerCareerStats
-##### [nba_api/stats/endpoints/playercareerstats.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/playercareerstats.py)
+##### [nba_api/stats/endpoints/playercareerstats.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/playercareerstats.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/playercareerstats](https://stats.nba.com/stats/playercareerstats)
@@ -10,9 +10,9 @@
 ## Parameters
 | API Parameter Name                                                                                              | Python Parameter Variable |             Pattern              | Required | Nullable |
 |-----------------------------------------------------------------------------------------------------------------|---------------------------|:--------------------------------:|:--------:|:--------:|
-| [_**PerMode**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PerMode)   | per_mode36                | `^(Totals)\|(PerGame)\|(Per36)$` |   `Y`    |          | 
-| [_**PlayerID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerID) | player_id                 |                                  |   `Y`    |          | 
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id_nullable        |                                  |          |   `Y`    | 
+| [_**PerMode**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PerMode)   | per_mode36                | `^(Totals)\|(PerGame)\|(Per36)$` |   `Y`    |          | 
+| [_**PlayerID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#PlayerID) | player_id                 |                                  |   `Y`    |          | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID) | league_id_nullable        |                                  |          |   `Y`    | 
 
 ## Data Sets
 #### CareerTotalsAllStarSeason `career_totals_all_star_season`

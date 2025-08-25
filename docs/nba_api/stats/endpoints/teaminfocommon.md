@@ -1,5 +1,5 @@
 # TeamInfoCommon
-##### [nba_api/stats/endpoints/teaminfocommon.py](https://github.com/swar/nba_api/blob/master/src/nba_api/stats/endpoints/teaminfocommon.py)
+##### [nba_api/stats/endpoints/teaminfocommon.py](https://github.com/rigidextoll/nba_api/blob/master/src/nba_api/stats/endpoints/teaminfocommon.py)
 
 ##### Endpoint URL
 >[https://stats.nba.com/stats/teaminfocommon](https://stats.nba.com/stats/teaminfocommon)
@@ -10,10 +10,10 @@
 ## Parameters
 | API Parameter Name                                                                                                  | Python Parameter Variable |  Pattern  | Required | Nullable |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------|:---------:|:--------:|:--------:|
-| [_**LeagueID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)     | league_id                 | `^\d{2}$` |   `Y`    |          | 
-| [_**TeamID**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID)         | team_id                   |           |   `Y`    |          | 
-| [_**SeasonType**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType) | season_type_nullable      |           |          |   `Y`    | 
-| [_**Season**_](https://github.com/swar/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)         | season_nullable           |           |          |   `Y`    | 
+| [_**LeagueID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#LeagueID)     | league_id                 | `^\d{2}$` |   `Y`    |          | 
+| [_**TeamID**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#TeamID)         | team_id                   |           |   `Y`    |          | 
+| [_**SeasonType**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#SeasonType) | season_type_nullable      |           |          |   `Y`    | 
+| [_**Season**_](https://github.com/rigidextoll/nba_api/blob/master/docs/nba_api/stats/library/parameters.md#Season)         | season_nullable           |           |          |   `Y`    | 
 
 ## Data Sets
 #### AvailableSeasons `available_seasons`
